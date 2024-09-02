@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import logo from "../resources/logo.png";
 import { Link } from "react-router-dom";
 import { AiOutlineHome } from "react-icons/ai";
-
+import { PiUserBold } from "react-icons/pi";
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -48,6 +48,16 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/about"
+                onAbort={() => updateExpanded(false)}
+              >
+                <PiUserBold style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
 

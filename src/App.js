@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import About from "./components/About";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
@@ -34,6 +35,7 @@ function App() {
         <Scroll />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
           <Route path="/project" element={<Projects />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
