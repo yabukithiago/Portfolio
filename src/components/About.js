@@ -9,9 +9,14 @@ function About() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
+        <Row
+          className="d-flex align-items-center"
+          style={{ justifyContent: "center", padding: "10px" }}
+        >
           <Col
             md={7}
+            xs={12}
+            className="order-md-1"
             style={{
               justifyContent: "center",
               paddingTop: "30px",
@@ -25,8 +30,9 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
+            xs={12}
+            className="order-md-2 mb-4 about-img"
+            style={{ paddingTop: "30px", paddingBottom: "50px" }}
           >
             <img src={aboutimg} alt="about" className="img-fluid" />
           </Col>
