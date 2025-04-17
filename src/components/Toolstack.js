@@ -4,6 +4,7 @@ import {
   SiVisualstudiocode,
   SiVisualstudio,
   SiVercel,
+  SiAndroid,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -14,6 +15,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudio />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAndroid />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />

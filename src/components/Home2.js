@@ -36,7 +36,7 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="green">C#</b> and
+              with <b className="green">C#</b>, <b className="green"> Kotlin</b> and
               <i>
                 <b className="green">
                   {" "}

@@ -472,6 +472,8 @@ button:focus {
 }
 
 .project-card {
+  display: flex !important;
+  flex-direction: column !important;
   padding-top: 50px !important;
   padding-bottom: 50px !important;
   padding-left: 25px !important;
@@ -480,12 +482,17 @@ button:focus {
 }
 
 .project-card-view {
+  flex-grow: 1 !important;
+  font-size: 1em !important;
+  line-height: 1.4;
   box-shadow: 0 4px 5px 3px rgba(53, 136, 57, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  padding: 1rem;
+  border-radius: 10px;
 }
 
 .project-card-view:hover {
@@ -527,7 +534,6 @@ button:focus {
 
 .card-img-top {
   padding: 20px !important;
-  opacity: 0.8 !important;
   border-radius: 10px !important;
 }
 
