@@ -20,7 +20,7 @@ function AboutCard() {
             <br />
             <br />
             My journey into the world of programming began during my studies as
-            an electronics technician, where i discovered programming while
+            an electronics technician, where I discovered programming while
             working on Arduino projects and writing simple programs in{" "}
             <b className="green">C++.</b>
             &nbsp;This simple experience sparked my interest in solving problems
@@ -29,6 +29,13 @@ function AboutCard() {
             innovate and constantly learn new skills in the ever-evolving
             technological landscape. I'm excited to apply my knowledge to
             develop solutions that have a real impact!
+            <br />
+            <br />
+            I am currently doing an internship at{" "}
+            <span className="green">Hestia Technology</span>, where I work with{" "}
+            <b className="green">Golang</b> and{" "}
+            <b className="green">Angular</b> to build and maintain backend
+            services and web applications.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

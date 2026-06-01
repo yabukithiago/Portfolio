@@ -17,7 +17,7 @@ function Home2() {
               LET ME <span className="green"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I got interested in programming and i'm constantly learning!
+              I got interested in programming and I'm constantly learning!
               <br />
               <br />I am fluent in classics like
               <i>
@@ -58,7 +58,7 @@ function Home2() {
         <Row>
           <Col md={12} className="">
             <h1 className="project-heading">
-              My Skills<strong className="green"> Technologies</strong>
+              My <strong className="green">Tech Stack</strong>
             </h1>
             <Techstack />
             <h1 className="project-heading">
