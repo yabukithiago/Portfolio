@@ -567,6 +567,28 @@ button:focus {
   font-weight: 500 !important;
 }
 
+.project-tech-stack {
+  margin-top: 12px;
+  margin-bottom: 14px;
+}
+
+.tech-badge {
+  background-color: #368643 !important;
+  color: #ffffff !important;
+  border: none !important;
+  margin-right: 6px !important;
+  margin-bottom: 6px !important;
+  font-size: 0.72em !important;
+  padding: 4px 10px !important;
+  border-radius: 12px !important;
+  font-weight: 500 !important;
+  display: inline-block;
+}
+
+.project-card-buttons {
+  margin-top: 14px;
+}
+
 /* --------- */
 /* About */
 /* --------- */
